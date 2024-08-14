@@ -110,7 +110,7 @@ Here are just some common examples.
     ```bash
     scrcpy --otg
     ```
-- 还可以配置profile 何以看android.media.MediaCodecInfo.class.CodecProfileLevel 可以打开a.apk来自于https://github.com/myrao/ScreenRecorder查看支持
+- 还可以配置profile 何以看android.media.MediaCodecInfo.class.CodecProfileLevel 可以打开a.apk来自于https://github.com/myrao/ScreenRecorder 查看支持
   ```bash
    scrcpy  --video-codec-options=profile=8,level=65536   #对应 android.media.MediaCodecInfo.CodecProfileLevel.AVCProfileHigh , android.media.MediaCodecInfo.CodecProfileLevel.AVCLevel52
    scrcpy  --video-codec-options=profile=8,level=131072 #对应 android.media.MediaCodecInfo.CodecProfileLevel.AVCProfileHigh , android.media.MediaCodecInfo.CodecProfileLevel.AVCLevel62
