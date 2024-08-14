@@ -110,7 +110,11 @@ Here are just some common examples.
     ```bash
     scrcpy --otg
     ```
-
+- 还可以配置profile 何以看android.media.MediaCodecInfo.class.CodecProfileLevel
+  ```bash
+   scrcpy  --video-codec-options=profile=8,level=131072 #对应 AVCProfileHigh ，AVCLevel62
+   scrcpy  --video-codec-options=profile=8,level=131072 #对应 android.media.MediaCodecInfo.CodecProfileLevel.AVCProfileHigh , android.media.MediaCodecInfo.CodecProfileLevel.AVCLevel62
+  ````
 ## User documentation
 
 The application provides a lot of features and configuration options. They are
